@@ -1,0 +1,42 @@
+baseURL = "augurk.github.io"
+languageCode = "en-us"
+title = "Augurk"
+theme = "hero"
+
+[params]
+  google_analytics_id=""
+
+  [params.homepage_meta_tags]
+    meta_description = "Augurk is an open source living documentation system aiming to provide additional value out of Gherkin feature files."
+    meta_og_title = "Augurk"
+    meta_og_type = "website"
+    meta_og_url = "https://augurk.github.io"
+    meta_og_image = "https://raw.githubusercontent.com/JugglerX/hugo-hero-theme/master/images/tn.png"
+    meta_og_description = "Augurk is an open source living documentation system aiming to provide additional value out of Gherkin feature files."
+    meta_twitter_card = "summary"
+    meta_twitter_site = "@AugurkDevs"
+    meta_twitter_creator = "@AugurkDevs"
+
+[[menu.main]]
+	name = "Docs"
+	url = "/docs/"
+    weight = 1
+
+[[menu.main]]
+    name = "Blog"
+    url = "/Blog/"
+    weight = 2
+
+[[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 3
+
+[[menu.main]]
+    name = "Contact"
+    url = "/contact/"
+    weight = 4
+
+[permalinks]
+  post = "/:year/:month/:day/:slug/"
+  pages = "/:filename/"
