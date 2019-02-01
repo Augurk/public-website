@@ -21,7 +21,7 @@ This can of course be done using the CLI directly, but we also provide an out-of
 ## Azure DevOps (Server)
 The extension for Azure DevOps can be installed from the [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=augurk.augurk). It works with both the cloud hosted version as well as the on-premises installation.
 
-TODO: Insert screenshot from Marketplace.
+{{< figure src="augurk-marketplace.png" title="Augurk in the Marketplace" >}}
 
 After installing the extension a total of 4 new build and release tasks are available for use within your pipelines. We'll focus on the first two for now:
 
@@ -33,14 +33,14 @@ Azure DevOps provides two ways of running your pipelines, either using hosted ag
 ### Install Augurk CLI task
 This task is responsible for downloading a (configurable) version of the Augurk CLI and making it available for use during the build or release. It requires a single parameter to be configured namely the version of the CLI you want to use. This allows you to pin the version you're using.
 
-TODO: Insert screenshot of configuration for Install CLI task
+{{< figure src="install-augurk-cli-task.png" title="Configuring the Install Augurk CLI task" >}}
 
 {{% callout-box %}}We would like our users to be able to select a version from the available releases in a dropdown, but unfortunately this isn't currently possible. For now, please refer to the [GitHub Release Page](https://github.com/augurk/Augurk.CommandLine/releases) for the CLI to find the version you want to use. It's recommended to use a stable version.{{% /callout-box %}}
 
 ### Run Augurk CLI task
 By using this task you can kick off the Augurk CLI during a build or release. All of the commands that the CLI supports can be run using this task. In essence this task provides a more convenient way of running the CLI.
 
-TODO: Insert screenshot of configuration for Run Augurk CLI task
+{{< figure src="run-augurk-cli-task.png" title="Configuring the Run Augurk CLI task" >}}
 
 Before using the task you need to configure a Service Endpoint that points to your installation of Augurk. If you haven't setup Augurk yet, refer to the [Getting Started]({{< relref "getting-started" >}}) guide to do so. Then add it by using the New button and entering the URL as well as a memorable name.
 
