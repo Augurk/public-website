@@ -127,4 +127,4 @@ After that you should be able to see the feature file within Augurk:
 {{< figure src="feature-in-augurk.png" title="Feature inside Augurk" >}}
 
 ## Next steps
-Now that you've setup Augurk and published a feature file, feel free to have a look around Augurk and discover it's features. When you're ready to take the next step, read the [Integration]() document to discover how you can automate the publishing of features files.
+Now that you've setup Augurk and published a feature file, feel free to have a look around Augurk and discover it's features. When you're ready to take the next step, read the [Integration]({{< relref "integrate" >}}) document to discover how you can automate the publishing of features files.
