@@ -10,7 +10,7 @@ pool:
   vmImage: 'Ubuntu-16.04'
 
 steps:
-- task: Hugo@1
+- task: HugoTask@1
   displayName: Hugo generate
   inputs:
    destination: $(Build.ArtifactStagingDirectory)/publish
