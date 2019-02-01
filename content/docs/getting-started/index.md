@@ -1,7 +1,7 @@
 ---
 title: "Getting Started"
 date: 2019-02-01T08:20:19+01:00
-icon: "docs/getting-started.png"
+icon: "directions"
 featured: true
 draft: false
 weight: 100
