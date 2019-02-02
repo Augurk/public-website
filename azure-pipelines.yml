@@ -18,7 +18,7 @@ steps:
   displayName: Hugo generate
   inputs:
    destination: $(Build.ArtifactStagingDirectory)/publish
-   baseURL: https://augurk.github.io
+   baseURL: https://augurk.github.io/
    extendedVersion: true
 
 - task: PublishBuildArtifacts@1
