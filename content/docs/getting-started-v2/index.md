@@ -1,15 +1,19 @@
 ---
-title: "Getting Started"
+title: "Getting Started with Augurk 2"
 date: 2019-02-01T08:20:19+01:00
 icon: "directions"
 featured: true
 draft: false
-weight: 100
-heroHeading: 'Getting Started'
-heroSubHeading: 'How to setup Augurk in your organization'
+weight: 1000
+heroHeading: 'Getting Started with Augurk 2'
+heroSubHeading: 'How to setup Augurk 2 in your organization'
 heroBackground: ''
 ---
-This document describes how you can setup *Augurk* within your own organization and start getting additional benefits out of your living documentation.
+This document describes how you can setup *Augurk 2* within your own organization and start getting additional benefits out of your living documentation.
+
+{{< callout-box >}}
+This document describes how to get started with the 2.x versions of Augurk. A lot has changed with Augurk 3.0, so if you're only now getting started with Augurk we recommend you follow the guide for [Augurk 3.0]({{< relref "getting-started-v3" >}}).
+{{< /callout-box >}}
 
 ## Prerequisites
 
@@ -22,6 +26,7 @@ In order to install *Augurk* you'll need to have the following:
 {{< callout-box >}}
 The authors of Augurk are fully aware that these prerequisites don't come easy, especially for development teams that do not use .NET. Work is therefore currently underway with Augurk 3.0 to lower the barrier for entry.
 {{< /callout-box >}}
+
 
 Make sure you install the ASP.NET 4.6 extensibility feature for IIS when setting it up, since this is a requirement of *Augurk*.
 

@@ -12,7 +12,7 @@ heroBackground: ''
 Augurk works best when you integrate it with your existing development workflow. Find out what the options are for integrating and which option is the best for your project on this page.
 
 ## Introduction
-There are many ways of integrating with Augurk. As shown in the [Getting Started]({{< relref "getting-started" >}}) guide the simplest way is using our [command line interface]({{< relref "cli" >}}) (CLI). While that works well for occasional use, it isn't very practical to have to upload your feature files manually each time a change is being made. We therefore recommend integrating Augurk into a continuous integration and/or continuous deployment pipeline.
+There are many ways of integrating with Augurk. As shown in the [Getting Started]({{< relref "getting-started-v3" >}}) guide the simplest way is using our [command line interface]({{< relref "cli" >}}) (CLI). While that works well for occasional use, it isn't very practical to have to upload your feature files manually each time a change is being made. We therefore recommend integrating Augurk into a continuous integration and/or continuous deployment pipeline.
 
 This can of course be done using the CLI directly, but we also provide an out-of-the-box integration with [Azure DevOps (Server)](https://azure.microsoft.com/en-us/services/devops/) to make it really easy to get started for teams that are using that service.
 
@@ -42,7 +42,7 @@ By using this task you can kick off the Augurk CLI during a build or release. Al
 
 {{< figure src="run-augurk-cli-task.png" title="Configuring the Run Augurk CLI task" >}}
 
-Before using the task you need to configure a Service Endpoint that points to your installation of Augurk. If you haven't setup Augurk yet, refer to the [Getting Started]({{< relref "getting-started" >}}) guide to do so. Then add it by using the New button and entering the URL as well as a memorable name.
+Before using the task you need to configure a Service Endpoint that points to your installation of Augurk. If you haven't setup Augurk yet, refer to the [Getting Started]({{< relref "getting-started-v3" >}}) guide to do so. Then add it by using the New button and entering the URL as well as a memorable name.
 
 Next chose the *command* you want to run. For most pipelines this will be the **Publish** command, which is the default. To be able to publish you'll need to enter a *product name*. This will be the name you'll see in Augurk itself once features have been published for it. If you already have existing products in Augurk you'll also have the possibility to choose one of them from the dropdown.
 
