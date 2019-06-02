@@ -1,4 +1,4 @@
-<div class="alert alert-info" role="alert">
+<div class="alert alert-{{ if .Get "class" }}{{ .Get "class" }}{{ else }}info{{ end }}" role="alert">
     <i class="fas fa-info-circle"></i>
     {{ .Inner | markdownify }}
 </div>
